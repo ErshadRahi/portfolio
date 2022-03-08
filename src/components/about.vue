@@ -72,27 +72,53 @@
       class="s4"
       d="m210.9 104.2c0 1-0.8 1.8-1.8 1.8c-0.9 0-1.7-0.8-1.7-1.8c0-0.9 0.8-1.7 1.7-1.7c1 0 1.8 0.8 1.8 1.7z"
     />
-    <path class="s4" d="m151.4 118.9h-13.8v-1.2h13.8z" />
-    <path class="s3" d="m167.6 118.9h-13.8v-1.2h13.8z" />
-    <path class="s2" d="m163.3 125.1h-21.4v-1.1h21.4z" />
-    <path class="s4" d="m177.7 125.1h-10.9v-1.1h10.9z" />
-    <path class="s3" d="m158.7 131.4h-9.4v-1.2h9.4z" />
-    <path class="s3" d="m195.4 131.4h-31.3v-1.2h31.3z" />
-    <path class="s2" d="m192.3 137.6h-35.7v-1.1h35.7z" />
-    <path class="s4" d="m158.7 143.9h-11v-1.2h11z" />
-    <path class="s2" d="m174.3 143.9h-10.9v-1.2h10.9z" />
-    <path class="s4" d="m153.6 176.3h-16v-1.1h16z" />
-    <path class="s3" d="m175.1 176.3h-16v-1.1h16z" />
-    <path class="s4" d="m196.1 176.3h-16v-1.1h16z" />
-    <path class="s2" d="m173.1 170.1h-31.2v-1.2h31.2z" />
-    <path class="s4" d="m209.2 170.1h-31.3v-1.2h31.3z" />
-    <path class="s4" d="m180.3 163.8h-31v-1.1h31z" />
-    <path class="s3" d="m191.6 163.8h-8.6v-1.1h8.6z" />
-    <path class="s3" d="m158.9 157.6h-11.6v-1.2h11.6z" />
-    <path class="s2" d="m176.8 157.6h-11.7v-1.2h11.7z" />
-    <path class="s4" d="m195.9 157.6h-11.6v-1.2h11.6z" />
-    <path class="s3" d="m177.1 151.3h-16.3v-1.1h16.3z" />
-    <path class="s2" d="m154.6 151.3h-16.3v-1.1h16.3z" />
+
+     <g class="code1 animateCode">
+      <path class="s4" d="m151.4 176.9h-13.8v-1.2h13.8z" />
+      <path class="s3" d="m167.6 176.9h-13.8v-1.2h13.8z" />
+    </g>
+    <g class="code2 animateCode">
+      <path class="s2" d="m163.3 176.9h-21.4v-1.1h21.4z" /> 
+      <path class="s4" d="m177.7 176.9h-10.9v-1.1h10.9z" />
+    </g>
+    <g class="code3 animateCode">
+      <path class="s3" d="m158.7 176.9h-9.4v-1.2h9.4z" />
+      <path class="s3" d="m195.4 176.9h-31.3v-1.2h31.3z" />
+    </g>
+    <g class="code4 animateCode">
+      <path class="s2" d="m192.3 176.9h-35.7v-1.1h35.7z" />
+    </g>
+    <g class="code5 animateCode">
+      <path class="s4" d="m158.7 176.9h-11v-1.2h11z" />
+      <path class="s2" d="m174.3 176.9h-10.9v-1.2h10.9z" />
+    </g>
+    <g class="code6 animateCode">
+      <path class="s3" d="m177.1 176.9h-16.3v-1.1h16.3z" />
+      <path class="s2" d="m154.6 176.9h-16.3v-1.1h16.3z" />
+    </g>
+    <g class="code7 animateCode">
+      <path class="s3" d="m158.9 176.9h-11.6v-1.2h11.6z" />
+      <path class="s2" d="m176.8 176.9h-11.7v-1.2h11.7z" /> 
+      <path class="s4" d="m195.9 176.9h-11.6v-1.2h11.6z" />
+    </g>
+    <g class="code8 animateCode">
+      <path class="s4" d="m180.3 176.9h-31v-1.1h31z" />
+      <path class="s3" d="m191.6 176.9h-8.6v-1.1h8.6z" />
+    </g>
+    <g class="code9 animateCode">
+      <path class="s4" d="m180.3 176.9h-31v-1.1h31z" />
+      <path class="s3" d="m191.6 176.9h-8.6v-1.1h8.6z" />
+    </g>
+    <g class="code10 animateCode">
+      <path class="s2" d="m173.1 176.9h-31.2v-1.2h31.2z" />
+      <path class="s4" d="m209.2 176.9h-31.3v-1.2h31.3z" />
+    </g>
+    <g class="code11 animateCode">
+      <path class="s4" d="m153.6 176.9h-16v-1.1h16z" />
+      <path class="s3" d="m175.1 176.9h-16v-1.1h16z" />
+      <path class="s4" d="m196.1 176.9h-16v-1.1h16z" />
+    </g>
+ 
     <path class="s5" d="m130 118.1h-1.5v-1.5h1.5z" />
     <path
       class="s5"
@@ -770,4 +796,70 @@ export default {
 .l11 {
   animation-delay: 13.2s;
 }
+
+
+
+@keyframes animateCode {
+		
+		from {
+			transform: translate(0,0);
+			visibility: visible;
+			
+		}
+		to {
+			transform: translate(0%,-11%);
+			visibility: hidden;
+		}
+	}
+	.animateCode{
+		animation-name: animateCode;
+		animation-duration: 13.2s;
+		animation-iteration-count: infinite;
+		animation-timing-function: linear;
+
+	}
+	.code1 {
+		animation-delay: 1.2s;
+		transition-delay: 1.2s;
+	}
+	.code2 {
+		animation-delay: 2.4s;
+		transition-delay: 2.4s;
+	}
+	.code3 {
+		animation-delay: 3.6s;
+		transition-delay: 3.6s;
+	}
+	.code4 {
+		animation-delay: 4.8s;
+		transition-delay: 4.8s;
+	}
+	.code5 {
+		animation-delay: 6s;
+		transition-delay: 6s;
+	}
+	.code6 {
+		animation-delay: 7.2s;
+		transition-delay: 7.2s;
+	}
+	.code7 {
+		animation-delay: 8.4s;
+		transition-delay: 8.4s;
+	}
+	.code8 {
+		animation-delay: 9.6s;
+		transition-delay: 9.6s;
+	}
+	.code9 {
+		animation-delay: 10.8s;
+		transition-delay: 10.8s;
+	}
+	.code10 {
+		animation-delay: 12s;
+		transition-delay: 12s;
+	}
+	.code11 {
+		animation-delay: 13.2s;
+		transition-delay: 13.2s;
+	}
 </style>

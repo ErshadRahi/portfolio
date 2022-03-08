@@ -72,7 +72,7 @@
           </div>
           <div class="experiences-content">
             <h4 class="experiences-title">Experiences</h4>
-            <div class="item" v-for="(item, i) in experiences" :key="i" :class="{'last': i===educations.length-1}">
+            <div class="item" v-for="(item, i) in experiences" :key="i" :class="{'last': i===experiences.length-1}">
                 <div class="position">{{item.position}}</div>
                 <a :href="item.link" target="_blank">
                     <div class="company">{{item.company}}</div>
@@ -193,7 +193,7 @@ export default {
         position :"Full Stack Developer",
         link: "https://denak.ir",
         company :"Denak",
-        location: "Remote"
+        location: "Tehran, Iran"
       },
 
     ]
